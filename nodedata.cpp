@@ -1,4 +1,4 @@
-/*#include "nodedata.h"
+#include "nodedata.h"
 
 //------------------- constructors/destructor  -------------------------------
 NodeData::NodeData() { data = ""; }                         // default
@@ -56,4 +56,4 @@ ostream& operator<<(ostream& output, const NodeData& nd) {
 	output << nd.data;
 	return output;
 }
-*/
+
